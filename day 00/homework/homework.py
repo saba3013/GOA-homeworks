@@ -5,10 +5,10 @@ from turtle import*
 #we want to paint a house
 
 #step 1: draw a square
-speed(10)
-width(7)
-color("green")
-
+speed(20)
+width(2)
+color("black")
+begin_fill()
 forward(200)
 left(90)
 
@@ -20,7 +20,7 @@ left(90)
 
 forward(200)
 left(90)
-
+end_fill()
 #end 0f square
 
 #drawing a door
@@ -28,7 +28,7 @@ left(90)
 
 forward(80)
 left(90)
-color("brown")
+color("red")
 begin_fill()
 forward(120)            #height of the dor
 right(90)
@@ -67,7 +67,7 @@ goto(30, 180)
 pendown()
 
 
-color("yellow")
+color("light blue")
 begin_fill()
 left(90)
 forward(40)
@@ -82,7 +82,7 @@ left(90)
 forward(40)
 end_fill()
 
-color("black")
+color("gray")
 left(90)
 forward(40)
 
@@ -113,7 +113,7 @@ penup()
 goto(140, 180)
 pendown()
 
-color("yellow")
+color("light blue")
 begin_fill()
 left(90)
 forward(40)
@@ -128,7 +128,7 @@ left(90)
 forward(40)
 end_fill()
 
-color("black")
+color("gray")
 left(90)
 forward(40)
 
